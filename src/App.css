@@ -20,6 +20,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   background-color: #E2EEEA;
+  position: sticky;
 }
 .nav-items {
   list-style: none;
@@ -39,10 +40,13 @@ body {
   justify-content: space-between;
   width: 45%;
   margin-right: 10%;
+  
 }
 .headers a {
   text-decoration: none;
   cursor: pointer;
+  font-weight: 400;
+  color: #909392;
 }
 .toggle-bar {
   font-size: 1.6em;
@@ -60,5 +64,5 @@ body {
   background-color: #FD6151;
 }
 .active {
-  color: #FD6151;
+  color: #FD6151 !important;
 }
