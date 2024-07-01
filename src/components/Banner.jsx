@@ -3,7 +3,7 @@ import { TiMessages } from "react-icons/ti";
 const Banner = () => {
     
     return (
-        <div className=''>
+        <div className='banner-container'>
             <p>Awlyg Tech - Votre partenaire pour un futur numérique prospère</p>
             <ul>
                 <li><h1>Actualité et tendance de l'industrie</h1></li>
