@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +11,9 @@ html {
 }
 
 body {
-  background-color: #E2EEEA; 
+  background-color: #E2EEEA;
+  font-family: "Roboto" sans-serif; 
+  font-weight: 400;
 }
 
 .Navbar {
@@ -28,18 +32,20 @@ body {
   width: 100vw;
   align-items: center;
   justify-content: space-between;
-  margin: 0% 8% 0% 5%;
+  margin: 0% 8% 0% 0%;
 }
 .nav-items img {
   width: 150px;
   height: auto;
   cursor: pointer;
+  
 }
 .headers{
   display: flex;
   justify-content: space-between;
   width: 45%;
-  margin-right: 10%;
+  /* margin: 0% 10% 0% 10%; */
+  font-size: 0.8em;
   
 }
 .headers a {

@@ -1,5 +1,5 @@
 import slider_info from '../Assets/images/slider_info.png'
-
+import { TiMessages } from "react-icons/ti";
 const Banner = () => {
     
     return (
@@ -11,10 +11,11 @@ const Banner = () => {
             </ul>
             <ul>
                 <li>
-
+                    <TiMessages />
                 </li>
                 <li>
-                    
+                    <p>contact</p>
+                    <h2>contact@awlyg.tech</h2>
                 </li>
             </ul>
             <button className='btn-aide'>Besoin d'aide</button>
