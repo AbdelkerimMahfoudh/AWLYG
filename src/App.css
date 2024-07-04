@@ -14,6 +14,7 @@ body {
   background-color: #E2EEEA;
   font-family: 'Roboto' sans-serif; 
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 /* Navbar */
@@ -149,3 +150,33 @@ body {
 }
 /* A propos */
 
+.A-propos {
+  display: flex;
+  max-width: 90vw;
+}
+.A-propos aside{
+  width: 50%;
+  margin: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-about {
+  background-color: rgba(253, 97, 81, 0.8);
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 40px 5px;
+  position: absolute;
+  top: 760px;
+  right: 950px;
+}
+#num {
+  font-size: 4em ;
+}
+#realise {
+  max-width: 10px;
+}
+.A-propos aside img{
+  width: 35vw;
+  height: auto;
+}
