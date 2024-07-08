@@ -30,7 +30,7 @@ const Services = () => {
                             <div className="card-3">
                                 <LuBrain />
                                 Read more 
-                                <button><FaLongArrowAltRight /></button>
+                                <FaLongArrowAltRight />
                             </div>
                         </li>
                         <li>
