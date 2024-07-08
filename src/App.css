@@ -183,7 +183,7 @@ body {
   width: 35vw;
   height: auto;
   transition: 3s ease-out;
-
+  
 }
 .A-propos aside img:hover {
   transform: scale(1.1);
