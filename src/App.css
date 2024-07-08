@@ -29,7 +29,7 @@ body {
   background-color: #E2EEEA;
   position:sticky;
   top: 0.1px;
-  
+  z-index: 999;
 }
 .nav-items {
   list-style: none;
@@ -152,7 +152,9 @@ body {
 
 .A-propos {
   display: flex;
-  max-width: 90vw;
+  max-width: 100vw;
+  background-color: #fff;
+  padding: 50px 0px;
 }
 .A-propos aside{
   width: 50%;
@@ -168,7 +170,8 @@ body {
   padding: 40px 25px;
   position: absolute;
   text-align: center;
-  z-index: 1;
+  z-index: 2;
+  transition: 3s ease-out;
 }
 #num {
   font-size: 4em ;
@@ -184,5 +187,35 @@ body {
 }
 .A-propos aside img:hover {
   transform: scale(1.1);
-  z-index: -1;
+  z-index: 1;
+}
+
+/* Services */
+
+.service {
+  text-align: center;
+}
+.service ul {
+  list-style: none;
+  border: #030165 1px solid;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.service li {
+  background-color: #fff;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 18%;
+  height: auto;
+  color: #FD6151;
+  border: 2px #909392 solid;
+}
+.service h1 {
+  font-size: 2em;
+}
+.service p {
+  font-size: 1em;
 }
